@@ -1,0 +1,81 @@
+.footer {
+  background: #000000;
+}
+
+.footer-container {
+  max-width: 1200px;
+  padding: 120px 20px 60px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  color: #cccccc;
+}
+
+.footer-contato li {
+  padding: 30px 5px;
+  font-weight: bold;
+  font-size: 1.9rem;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.footer-contato li a {
+  color: #ffffff;
+}
+
+.footer-copy {
+  grid-column: 1/-1;
+  font-size: 1.125rem;
+  color: #8f8f8f;
+  text-align: center;
+  background: #0e1013 no-repeat;
+}
+
+.footerlinkedin {
+  display: flex;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1px 1px;
+  margin-bottom: 2px 2px;
+  margin-top: 5px;
+}
+
+.linkedinicon {
+  max-width: 2ch;
+  margin-bottom: 22px;
+}
+.footerlinkedin a {
+  color: #8f8f8f;
+}
+.footergithub {
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: 1px 1px;
+  margin-bottom: 2px 2px;
+  margin-top: 5px;
+}
+
+.githubicon {
+  max-width: 2ch;
+  margin-bottom: 22px;
+}
+.footergithub a {
+  color: #8f8f8f;
+}
+@media (max-width: 800px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .footer-contato li {
+    font-size: 1.5rem;
+  }
+}
